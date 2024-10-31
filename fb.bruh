@@ -1,0 +1,62 @@
+(This program prints FizzBuzz, but I think it doesn't work.)
+
+(["Fizz"o]f
+["Buzz"o]b
+
+[
+    [1co]
+    .f   (1, 1, f, f)
+    3    (1, 1, f, f, 5)
+    4c3d (1, 1, f, f, 5, 1)
+    %0=  (1, 1, f, f, False)
+    i
+]a
+
+[ (1, 1)
+    .a
+    .b   (1, 1, f, f)
+    5    (1, 1, f, f, 5)
+    4c3d (1, 1, f, f, 5, 1)
+    %0=  (1, 1, f, f, False)
+    i (1, 1)
+]e
+
+0
+[
+    1+ (1)
+    1c (1, 1)
+    .e
+    [fb] (1, 1, f, f)
+    15 (1, 1, f, f, 15)
+    4c
+    3d (1, 1, f, f, 15, 1)
+    %
+    0= (1, 1, f, f, False)
+    i (1, 1)
+    1d (1)
+    "\n"o
+]100r)
+
+
+(Start by defining an if statement for this purpose)
+[   (Inputs in push order: index, else, if, check)
+    4G (Grab index)
+    %0=
+    1c$A
+    i
+    A
+]I
+
+[3G    (4, "Fizz", 3, 4)
+%0=    (4, "Fizz", False)
+1c$C   (4, "Fizz", False)
+*      (4, "")
+oC]f    (4, False)
+
+0
+[1+
+"Fizz"3f$F
+"Buzz"5f$B
+
+.N[1co]FB&!i
+"\n"o]100r
