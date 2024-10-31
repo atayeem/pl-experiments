@@ -1,0 +1,12 @@
+(
+    (defun hello (
+        (print "Hello world")
+    ))
+
+    (defun sum a b (
+        (ret (add a b))
+    ))
+
+    (print (sum 2 3))
+    (hello)
+)
