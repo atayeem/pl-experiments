@@ -100,8 +100,7 @@ def _remove_none(tokens: list) -> list:
 def create_subarrays(tokens: list) -> list:
     tokens = _create_subarrays_with_none(tokens)
     tokens = _remove_none(tokens)
-    return tokens
-            
+    return tokens      
 
 def process(text):
     buf = atomize(text)
